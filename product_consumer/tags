@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Destory	product_consumer.c	/^void Destory(ListNode_p head)$/;"	f
+Display	product_consumer.c	/^void Display(ListNode_p node)$/;"	f
+InitList	product_consumer.c	/^void InitList(ListNode_pp head)$/;"	f
+ListNode	product_consumer.c	/^typedef struct ListNode{$/;"	s	file:
+ListNode_p	product_consumer.c	/^}ListNode_t,*ListNode_p,**ListNode_pp;$/;"	t	typeref:struct:ListNode	file:
+ListNode_pp	product_consumer.c	/^}ListNode_t,*ListNode_p,**ListNode_pp;$/;"	t	typeref:struct:ListNode	file:
+ListNode_t	product_consumer.c	/^}ListNode_t,*ListNode_p,**ListNode_pp;$/;"	t	typeref:struct:ListNode	file:
+PopFront	product_consumer.c	/^void PopFront(ListNode_p head,int *data)$/;"	f
+PushFront	product_consumer.c	/^void PushFront(ListNode_p head,int data)$/;"	f
+_data	product_consumer.c	/^int _data;$/;"	m	struct:ListNode	file:
+_next	product_consumer.c	/^struct  ListNode *_next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
+alloc_node	product_consumer.c	/^ListNode_p alloc_node(int data)$/;"	f
+del_node	product_consumer.c	/^void del_node(ListNode_p node)$/;"	f
+isEmpty	product_consumer.c	/^int isEmpty(ListNode_p node)$/;"	f
+main	product_consumer.c	/^int main()$/;"	f
+mycond	product_consumer.c	/^pthread_cond_t mycond=PTHREAD_COND_INITIALIZER;$/;"	v
+mylock	product_consumer.c	/^pthread_mutex_t mylock=PTHREAD_MUTEX_INITIALIZER;$/;"	v
+thread_consumer	product_consumer.c	/^void *thread_consumer(void* arg)$/;"	f
+thread_product	product_consumer.c	/^void *thread_product(void* arg)$/;"	f
